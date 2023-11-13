@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Aula13Exemplo01.jnlp">
+  <information>
+    <title>Aula13Exemplo01</title>
+    <vendor>Usuário</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Aula13Exemplo01.jar" size="4230" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="aula13exemplo01.Aula13Exemplo01"  name="Aula13Exemplo01" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aula13exemplo01.TelaPrincipalController">
+   <children>
+      <Button id="btnBK" fx:id="btnBK" layoutY="106.0" mnemonicParsing="false" onAction="#btnBKAction" prefHeight="78.0" prefWidth="84.0" text="BK">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnCE" fx:id="btnCE" layoutX="84.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnCEAction" prefHeight="78.0" prefWidth="84.0" text="CE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnC" fx:id="btnC" layoutX="168.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnCAction" prefHeight="78.0" prefWidth="84.0" text="C">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnDiv" fx:id="btnDiv" layoutX="252.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnDivAction" prefHeight="78.0" prefWidth="84.0" text="/">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn7" fx:id="btn7" layoutY="184.0" mnemonicParsing="false" onAction="#btn7Action" prefHeight="78.0" prefWidth="84.0" text="7">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn8" fx:id="btn8" layoutX="84.0" layoutY="184.0" mnemonicParsing="false" onAction="#btn8Action" prefHeight="78.0" prefWidth="84.0" text="8">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn9" fx:id="btn9" layoutX="168.0" layoutY="184.0" mnemonicParsing="false" onAction="#btn9Action" prefHeight="78.0" prefWidth="84.0" text="9">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnMult" fx:id="btnMult" layoutX="252.0" layoutY="184.0" mnemonicParsing="false" onAction="#btnMultAction" prefHeight="78.0" prefWidth="84.0" text="X">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnMenos" fx:id="btnMenos" layoutX="252.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnMenosAction" prefHeight="78.0" prefWidth="84.0" text="-">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnMais" fx:id="btnMais" layoutX="252.0" layoutY="340.0" mnemonicParsing="false" onAction="#btnMaisAction" prefHeight="78.0" prefWidth="84.0" text="+">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnIgual" fx:id="btnIgual" layoutX="252.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnIgualAction" prefHeight="78.0" prefWidth="84.0" style="-fx-background-color: lightblue;" text="=" textAlignment="CENTER">
+         <font>
+            <Font size="33.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button id="btn4" fx:id="btn4" layoutY="262.0" mnemonicParsing="false" onAction="#btn4Action" prefHeight="78.0" prefWidth="84.0" text="4">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn5" fx:id="btn5" layoutX="84.0" layoutY="262.0" mnemonicParsing="false" onAction="#btn5Action" prefHeight="78.0" prefWidth="84.0" text="5">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn6" fx:id="btn6" layoutX="168.0" layoutY="262.0" mnemonicParsing="false" onAction="#btn6Action" prefHeight="78.0" prefWidth="84.0" text="6">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn1" fx:id="btn1" layoutY="340.0" mnemonicParsing="false" onAction="#btn1Action" prefHeight="78.0" prefWidth="84.0" text="1">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn2" fx:id="btn2" layoutX="84.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn2Action" prefHeight="78.0" prefWidth="84.0" text="2">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn3" fx:id="btn3" layoutX="168.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn3Action" prefHeight="78.0" prefWidth="84.0" text="3">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnPonto" fx:id="btnPonto" layoutX="168.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnPontoAction" prefHeight="78.0" prefWidth="84.0" text=".">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btn0" fx:id="btn0" layoutX="84.0" layoutY="418.0" mnemonicParsing="false" onAction="#btn0Action" prefHeight="78.0" prefWidth="84.0" text="0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="btnPorc" fx:id="btnPorc" layoutY="418.0" mnemonicParsing="false" onAction="#btnPorcAction" prefHeight="78.0" prefWidth="84.0" text="\%">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Label layoutX="6.0" layoutY="4.0" prefHeight="21.0" prefWidth="96.0" text="Calculadora" />
+      <TextField fx:id="txtDisplay" layoutX="-1.0" layoutY="29.0" prefHeight="78.0" prefWidth="336.0" />
+   </children>
+</AnchorPane>
